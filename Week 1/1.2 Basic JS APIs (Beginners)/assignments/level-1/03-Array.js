@@ -46,3 +46,13 @@ function concatExample(arr1, arr2) {
     console.log("After concat:", arr3);
 }
 concatExample([1,2,3],[4,5,6]);
+
+// forEach()
+function forEachExample(arr) {
+    console.log("Original Array:", arr);
+
+    arr.forEach(function(item, index){
+        console.log(item, index);
+    });
+}
+forEachExample([1,2,3]);
